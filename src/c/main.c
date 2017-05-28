@@ -1,0 +1,28 @@
+#include <pebble.h>
+
+#include "screen.h"
+
+Window *my_window;
+TextLayer *text_layer;
+
+void handle_init(void) {
+  my_window = window_create();
+
+  text_layer = text_layer_create(GRect(0, 0, 144, 20));
+  window_stack_push(my_window, true);
+  
+  show_screen();
+}
+
+void handle_deinit(void) {
+  hide_screen();
+  
+  text_layer_destroy(text_layer);
+  window_destroy(my_window);
+}
+
+int main(void) {
+  handle_init();
+  app_event_loop();
+  handle_deinit();
+}

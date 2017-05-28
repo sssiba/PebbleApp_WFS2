@@ -1,0 +1,72 @@
+{
+    "author": "sss6001mk2sr@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "wfs2",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "configurable",
+            "health"
+        ],
+        "displayName": "WFS2",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "data/scn02.png",
+                    "name": "IMAGE_SCN02",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "data/scn01.png",
+                    "name": "IMAGE_SCN01",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "data/scn00.png",
+                    "name": "IMAGE_SCN00",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "fonts/DejaVuSansMono.ttf",
+                    "name": "FONT_TEST_14",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/DejaVuSansMono.ttf",
+                    "name": "FONT_TEST_12",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/DejaVuSansMono.ttf",
+                    "name": "FONT_TEST_10",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/DejaVuSansMono.ttf",
+                    "name": "FONT_TEST_8",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "21fa2f20-ac73-4dfd-99d6-a591ab8d0fd5",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
